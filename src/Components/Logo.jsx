@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 
 function Logo({ width = "180px" }) {
   return (
     <img
-      src={logo}
+      src={Logo}
       alt="My Blog"
       style={{ width }}
       className="object-contain"
